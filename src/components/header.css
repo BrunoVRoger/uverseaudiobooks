@@ -1,0 +1,60 @@
+
+header{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right,#5a5a5a,#000000);
+
+}
+
+.logo{
+    flex: 1;
+}
+img{
+    width: 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin-left: 25px;
+}
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.avatar img{
+    width: 35px;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+label{
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width:600px){
+    .login-google{
+        display: none;
+    }
+}

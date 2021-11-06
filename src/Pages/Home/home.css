@@ -1,0 +1,139 @@
+.c-player {
+    display: block;
+    display: block;
+    margin: 0px auto;
+    padding: 50px;
+    border-radius: 16px;
+	background-image: linear-gradient(to right ,#272525,#000000);
+	box-shadow: inset 0 0 1em #000000, 0 0 1em #a7a7a7;
+    margin-top: 100px;
+
+}
+
+.c-player > h4 {
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+.c-player > p {
+    color:#fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.c-player > p span {
+    font-weight: 400;
+	color: #fff;
+}
+
+.c-player--details .details-img {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.c-player--details .details-img img {
+    display: block;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8), -6px -6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.c-player--details .details-img:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    right: -25px;
+    bottom: -25px;
+    border-radius: 50%;
+    border: 3px dashed rgba(255, 206, 0, 1);
+}
+
+.c-player--details .details-title {
+    color: #EEE;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.c-player--details .details-artist {
+    color: #AAA;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.c-player--controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.c-player--controls .play-btn {
+    display: flex;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.c-player--controls .skip-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
+h3.details-title {
+    display: flex;
+    justify-content: center;
+	color: #fff;
+}
+
+
+h4.details-artist {
+    display: flex;
+    justify-content: center;
+}
+
+
+.details-img  {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.details-img img{
+	border-radius: 50%;
+	width: 200px;
+   height: 200px;
+}
+
+
+
+@media screen and (max-width:600px){
+    .c-player{
+        margin-top: 20px;
+    }
+}
+
